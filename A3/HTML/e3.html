@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A nested List:</title>
+    <style>
+        body {
+            background-color: green;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .line-list {
+            list-style-type: none;
+        }
+        .line-list li::before {
+            content: "- ";
+            color: black;
+        }
+        .numbered-list {
+            list-style-type: decimal;
+        }
+        .letters-list {
+            list-style: upper-alpha;
+        }
+        .lower-list {
+            list-style: lower-alpha;
+        }
+        .roman-list {
+            list-style: upper-roman;
+        }
+        .lower-roman-list {
+            list-style: lower-roman;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <h4>A nested List:</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea
+                    <ul>
+                        <li>China</li>
+                        <li>Africa</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+    <p>Coffee</p>
+    <ul class="line-list">
+        <li>black hot drink</li>
+    </ul>
+    <p>Milk</p>
+    <ul class="line-list">
+        <li>white cold drink</li>
+    </ul>
+    <h4>Numbered list:</h4>
+    <ul class="numbered-list">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>Letters list:</h4>
+    <ul class="letters-list">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>Lowercase letters list:</h4>
+    <ul class="lower-list">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>Roman numbers list:</h4>
+    <ul class="roman-list">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>Lowercase roman numbers list:</h4>
+    <ul class="lower-roman-list">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <hr>
+    <p>Link per enviar emails a una adreça determinada</p>
+    <p><a href="mailto:roma.carbonell.7e7@itb.cat">Enviar email</a></p>
+    <hr>
+</body>
+</html>
