@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<nota xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="A2_xsd_ex3.xsd">
+    <para>Antonio</para>
+    <de>Juan</de>
+    <asunto>Recuerdo</asunto>
+    <cuerpo>¡No me olvides!</cuerpo>
+</nota>

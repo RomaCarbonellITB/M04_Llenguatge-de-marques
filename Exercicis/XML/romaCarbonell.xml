@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipFutbol>
+    <nom>Liverpool F.C.</nom>
+    <jugadors>
+        <jugador posicio="Porter">
+            <nom>Alisson Becker</nom>
+            <nacionalitat>Brasiler</nacionalitat>
+        </jugador>
+        <jugador posicio="Davanter">
+            <nom>Mohamed Salah</nom>
+            <numero>11</numero>
+        </jugador>
+    </jugadors>
+    <entrenador>Jürgen Klopp</entrenador>
+    <ciutat>
+        Liverpool
+        <!-- Beautiful city-->
+    </ciutat>
+</equipFutbol>

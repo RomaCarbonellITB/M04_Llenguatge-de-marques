@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comanda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="A2_xsd_ex14.xsd">
+    <dades>
+        <numero>13</numero>
+        <data>2011-09-28</data>
+        <client nom="Manuel Rovira" poblacio="Girona"></client>
+    </dades>
+    <articles>
+        <article codi="687" descripcio="Ratolí"></article>
+        <article codi="129851" descripcio="Pendrive 4GB"></article> 
+    </articles>
+</comanda>

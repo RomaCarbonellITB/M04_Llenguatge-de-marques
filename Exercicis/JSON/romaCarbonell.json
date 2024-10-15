@@ -1,0 +1,22 @@
+{
+  "equipFutbol": {
+    "nom": "Liverpool",
+    "jugadors": {
+        "jugador1": {
+            "posicio": "Porter",
+            "nom": "Alisson Becker",
+            "nacionalitat": "Brasiler"
+        },
+        "jugador2": {
+            "posicio": "davanter",
+            "nom": "Mohamed  Salah",
+            "numero": 11
+        }
+    },
+    "entrenador": "Jürgen Klopp",
+    "ciutat": {
+        "nom": "Liverpool",
+        "comentari": "Beautiful city"
+    }
+}
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Empleado" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Apellido" type="xs:string" maxOccurs="2"/>
+                            <xs:element name="Nombre" type="xs:string"/>
+                            <xs:element name="NumEmpleado" type="xs:positiveInteger" maxOccurs="1"/>
+                            <xs:element name="Email" type="xs:string"/>
+                            <xs:element name="Telefono" type="xs:string"/>
+                            <xs:element name="Direccion" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Calle" type="xs:string"/>
+                                        <xs:element name="Ciudad" type="xs:string"/>
+                                        <xs:element name="CP" type="xs:positiveInteger"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

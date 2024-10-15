@@ -1,0 +1,10 @@
+<alumno>
+    <nombre>Juan</nombre>
+    <apellido>Grarcía</apellido>
+    <nacimiento>
+        <dia>23</dia>
+        <mes>Febrero</mes>
+        <año>2001</año>
+        <ciudad>Barcelona</ciudad>
+    </nacimiento>
+</alumno>

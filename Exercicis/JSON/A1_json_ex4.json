@@ -1,0 +1,51 @@
+{
+    "recetas": [
+      {
+        "nombre": "Pan",
+        "porciones": 1,
+        "ingredientes": [
+          { "ingrediente": "Harina de trigo común", "cantidad": "500g" },
+          { "ingrediente": "Agua", "cantidad": "325ml" },
+          { "ingrediente": "Levadura fresca", "cantidad": "15g" },
+          { "ingrediente": "Sal", "cantidad": "10g" },
+          { "ingrediente": "Azúcar", "cantidad": "10g" },
+          { "ingrediente": "Aceite de oliva virgen extra", "cantidad": "45ml" }
+        ],
+        "duracion": {
+          "total": "55min",
+          "elaboracion": "10min",
+          "coccion": "45min",
+          "reposo": "20min"
+        },
+        "pasos": {
+          "descripción": "Introducimos el agua templada en un recipiente amplio y hondo y añadimos la levadura fresca, desmenuzada, y el azúcar. Removemos hasta que el azúcar y la levadura se integren por completo. Añadimos la mitad de la harina y todo el aceite. Removemos bien, procurando aplastar los grumos que se formen, y dejamos reposar durante 20 minutos a temperatura ambiente, cubriendo el recipiente con un trapo limpio. La masa crecerá ligeramente y se llenará de burbujas. Transcurrido el tiempo de reposo incorporamos el resto de la harina, la sal y removemos hasta que no podamos más, porque se volverá muy espesa. Espolvoreamos la superficie de trabajo con harina y volcamos la masa sobre ella. Nos engrasamos las manos con aceite y amasamos durante un par de minutos. Formamos una bola con la masa y la colocamos sobre una bandeja de horno cubierta con papel vegetal untado con un poco de aceite. Hacemos dos cortes en la superficie con un cuchillo afilado y, si queremos dar un aire rústico al pan, lo espolvoreamos con harina. Embadurnamos con aceite el interior de un recipiente amplio y hondo apto para horno (hemos usado un bol de pyrex de 24 cm, pero se puede usar una cacerola o similar) y cubrimos con él la masa. Cocemos en el horno, precalentado a 200 ºC con calor arriba y abajo, durante 45 minutos. Destapamos y dejamos enfriar sobre una rejilla antes de consumir."
+        }
+      },
+      {
+        "nombre": "Macarrones gratinados",
+        "porciones": 2,
+        "ingredientes": [
+          { "ingrediente": "Carne picada", "cantidad": "200g" },
+          { "ingrediente": "Ajo", "cantidad": "2 dientes" },
+          { "ingrediente": "Cebolla", "cantidad": "1/2 unidad" },
+          { "ingrediente": "Queso rallado", "cantidad": "2 cucharadas" },
+          { "ingrediente": "Macarrones", "cantidad": "180g" },
+          { "ingrediente": "Tomate frito", "cantidad": "1 taza" },
+          { "ingrediente": "Sal", "cantidad": "1 pizca" },
+          { "ingrediente": "Pimienta Negra", "cantidad": "1 pizca" },
+          { "ingrediente": "Vino blanco", "cantidad": "1/4 taza" },
+          { "ingrediente": "Aceite de oliva", "cantidad": "3 cucharadas" }
+        ],
+        "duracion": {
+          "total": "25min",
+          "elaboracion": null,
+          "coccion": null,
+          "reposo": null
+        },
+        "pasos": {
+          "descripción": "Calienta agua en una cazuela, añade un poco de sal cuando rompa a hervir e incorpora los macarrones. Cuece la pasta el tiempo que indica las instrucciones. Pela y pica finamente los ajos y la cebolla. Pon a dorar en una sartén, con aceite, el ajo que acabas de picar. Al cabo de un par de minutos, añade la cebolla y deja que se cocine junto con el ajo. En un plato, desmenuza la carne picada y échale un poco de sal y pimienta. Cuando la cebolla esté blandita, incorpora la carne picada. Cocínala a fuego medio 2-3 minutos e incorpora el vino blanco. Cuando el alcohol se evapore, añade el tomate frito y deja todo cocinar durante 10 minutos aproximadamente. Comprueba que la sal está bien y sino corrige. Añade los macarrones cocidos a la sartén, revuelve bien y vierte todo en una bandeja apta para horno. Espolvorea un poco de queso por encima y mete en el horno 5 minutos, posición gratinado a 200°C. A continuación, retíralo y sírvelo en la mesa."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,10 @@
+<xml:pais/>
+<dia>21</dia>
+<mes>10</mes>
+<ciudad>Barcelona</ciudad>
+<Ciudad>Barcelona</Ciudad>
+<colores>Naranja y verde</colores>
+<rojo></rojo>
+<aficiones>Cinema, Bailar, Nadar</aficiones>
+<persona><nombre>Maria</nombre></persona>
+<color_favorito>blanc</color_favorito>

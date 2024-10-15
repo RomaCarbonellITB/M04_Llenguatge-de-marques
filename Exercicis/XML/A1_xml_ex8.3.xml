@@ -1,0 +1,35 @@
+<obras_arte>
+    <obra>
+        <titulo>Azul sobre blanco</titulo>
+        <tipo_arte>Cuadro</tipo_arte>
+        <corriente>Abstracto</corriente>
+        <autor>
+            <nombre>Pere</nombre>
+            <apellido>Àguila</apellido>
+        </autor>
+        <año>2010</año>
+        <material>Óleo</material>
+    </obra>
+    <obra>
+        <titulo>Gris oscuro</titulo>
+        <tipo_arte>Cuadro</tipo_arte>
+        <corriente>Abstracto</corriente>
+        <autor>
+            <nombre>Pere</nombre>
+            <apellido>Àguila</apellido>
+        </autor>
+        <año>2010</año>
+        <material>Acuarela</material>
+    </obra>
+    <obra>
+        <titulo>Camino largo</titulo>
+        <tipo_arte>Escultura</tipo_arte>
+        <corriente></corriente>
+        <autor>
+            <nombre>Marta</nombre>
+            <apellido>Lambert</apellido>
+        </autor>
+        <año>1981</año>
+        <material>Mármol</material>
+    </obra>
+</obras_arte>

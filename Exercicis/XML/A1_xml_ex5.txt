@@ -1,0 +1,7 @@
+<coche marca="Seat" color="Rojo" matricula="B3456L" conductores="Jorge, Maria" alquilado=""></coche>
+<!-- Correcció fragments codi
+<corredor posicio="1" nom="Manuel Roure"></corredor>
+<alumne delegat="Jaume Ravent"></alumne>
+<coche tipo_combustible="gasolina">Seat Ibiza</coche>
+<politico cargos="alcalde, diputado">Jordi Rufi</politico>
+-->

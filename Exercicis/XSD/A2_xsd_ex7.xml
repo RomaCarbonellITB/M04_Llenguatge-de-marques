@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matricula xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="A2_xsd_ex7.xsd">
+        <ciclo>ASIXc</ciclo>
+        <alumnos>
+            <alumno>
+                <nombre>Romà Carbonell Benito</nombre>
+                <year>2024</year>
+                <asignaturas>
+                    <asignatura>Llenguatges de marques i sistemes de gestió d'informació</asignatura>
+                </asignaturas>
+            </alumno>
+        </alumnos>
+</matricula>

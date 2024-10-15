@@ -1,0 +1,70 @@
+<recetas>
+    <receta>
+        <nombre>Pan</nombre>
+        <porciones>1</porciones>
+        <ingredientes>
+            <ingrediente>Harina de trigo común</ingrediente>
+                <cantidad>500g</cantidad>
+            <ingrediente>Agua</ingrediente>
+                <cantidad>325ml</cantidad>
+            <ingrediente>Levadura fresca</ingrediente>
+                <cantidad>15g</cantidad>
+            <ingrediente>Sal</ingrediente>
+                <cantidad>10g</cantidad>
+            <ingrediente>Azúcar</ingrediente>
+                <cantidad>10g</cantidad>
+            <ingrediente>Aceite de oliva virgen extra</ingrediente>
+                <cantidad>45ml</cantidad>
+        </ingredientes>
+        <duracion>
+            <total>55min</total>
+            <elaboracion>10min</elaboracion>
+            <coccion>45min</coccion>
+            <reposo>20min</reposo>
+        </duracion>
+        <pasos descripción="Introducimos el agua templada en un recipiente amplio y hondo y añadimos la levadura fresca, desmenuzada, y el azúcar. Removemos hasta que el azúcar y la levadura se integren por completo.
+
+Añadimos la mitad de la harina y todo el aceite. Removemos bien, procurando aplastar los grumos que se formen, y dejamos reposar durante 20 minutos a temperatura ambiente, cubriendo el recipiente con un trapo limpio. La masa crecerá ligeramente y se llenará de burbujas.
+
+Transcurrido el tiempo de reposo incorporamos el resto de la harina, la sal y removemos hasta que no podamos más, porque se volverá muy espesa. Espolvoreamos la superficie de trabajo con harina y volcamos la masa sobre ella. Nos engrasamos las manos con aceite y amasamos durante un par de minutos.
+Formamos una bola con la masa y la colocamos sobre una bandeja de horno cubierta con papel vegetal untado con un poco de aceite. Hacemos dos cortes en la superficie con un cuchillo afilado y, si queremos dar un aire rústico al pan, lo espolvoreamos con harina.
+
+Embadurnamos con aceite el interior de un recipiente amplio y hondo apto para horno (hemos usado un bol de pyrex de 24 cm, pero se puede usar una cacerola o similar) y cubrimos con él la masa. Cocemos en el horno, precalentado a 200 ºC con calor arriba y abajo, durante 45 minutos. Destapamos y dejamos enfriar sobre una rejilla antes de consumir."></pasos>
+    </receta>
+    <receta>
+        <nombre>Macarrones gratinados</nombre>
+        <porciones>2</porciones>
+        <ingredientes>
+            <ingrediente>Carne picada</ingrediente>
+                <cantidad>200g</cantidad>
+            <ingrediente>Ajo</ingrediente>
+                <cantidad>2 dientes</cantidad>
+            <ingrediente>Cebolla</ingrediente>
+                <cantidad>1/2 unidad</cantidad>
+            <ingrediente>Queso rallado</ingrediente>
+                <cantidad>2 cucharadas</cantidad>
+            <ingrediente>Macarrones</ingrediente>
+                <cantidad>180g</cantidad>
+            <ingrediente>Tomate frito</ingrediente>
+                <cantidad>1 taza</cantidad>
+            <ingrediente>Sal</ingrediente>
+                <cantidad>1 pizca</cantidad>
+            <ingrediente>Pimienta Negra</ingrediente>
+                <cantidad>1 pizca</cantidad>
+            <ingrediente>Vino blanco</ingrediente>
+                <cantidad>1/4 taza</cantidad>
+            <ingrediente>Aceite de oliva</ingrediente>
+                <cantidad>3 cucharadas</cantidad>
+        </ingredientes>
+        <duracion>
+            <total>25min</total>
+            <elaboracion></elaboracion>
+            <coccion></coccion>
+            <reposo></reposo>
+        </duracion>
+        <pasos descripción="Calienta agua en una cazuela, añade un poco de sal cuando rompa a hervir e incorpora los macarrones.
+        Cuece la pasta el tiempo que indica las instrucciones. Pela y pica finamente los ajos y la cebolla.
+        Pon a dorar en una sartén, con aceite, el ajo que acabas de picar. Al cabo de un par de minutos, añade la cebolla y deja que se cocine junto con el ajo. 
+En un plato, desmenuza la carne picada y échale un poco de sal y pimienta. Cuando la cebolla esté blandita, incorpora la carne picada. Cocínala a fuego medio 2-3 minutos e incorpora el vino blanco. Cuando el alcohol se evapore, añade el tomate frito y deja todo cocinar durante 10 minutos aproximadamente. Comprueba que la sal está bien y sino corrige. Añade los macarrones cocidos a la sartén, revuelve bien y vierte todo en una bandeja apta para horno. Espolvorea un poco de queso por encima y mete en el horno 5 minutos, posición gratinado a 200°C. A continuación, retíralo y sírvelo en la mesa."></pasos>
+    </receta>
+</recetas>

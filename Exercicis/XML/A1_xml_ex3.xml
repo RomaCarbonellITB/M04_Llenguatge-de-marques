@@ -1,0 +1,22 @@
+<Empresa>
+    <Empleado NumEmpleado="1234567890">
+        <Apellido>Perez</Apellido>
+        <Nombre>Juan</Nombre>
+        <Email>juanperez@gmail.com</Email>
+        <Telefono>666 555 444</Telefono>
+        <Direccion>
+            <Calle>Carrer de Pau Claris, 121</Calle>
+            <Ciudad CP="08009">Barcelona</Ciudad>
+        </Direccion>
+    </Empleado>
+</Empresa>
+<!--Calle sí que podria ser atributo de dirección y ciudad también porque siguen el orden jerarquico (aunque entonces CP sería atributo de direccion), quedaría así:
+<Empresa>
+    <Empleado NumEmpleado="1234567890">
+        <Apellido>Perez</Apellido>
+        <Nombre>Juan</Nombre>
+        <Email>juanperez@gmail.com</Email>
+        <Telefono>666 555 444</Telefono>
+        <Direccion Calle="Carrer de Pau Claris, 121" Ciudad="Barcelona" CP="08009"</Direccion>
+    </Empleado>
+</Empresa>-->

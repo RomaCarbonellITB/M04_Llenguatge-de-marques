@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inversion xmlns:lugar="http://www.rcb.com/lugar" xmlns:finanzas="http://www.rcb.com/finanzas">
+    <pais nombre="Francia">
+        <lugar:capital>Paris</lugar:capital>
+        <finanzas:capital>1200M€</finanzas:capital>
+    </pais>
+</inversion>

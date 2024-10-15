@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Exemple invalid: el dni no té un format correcte  -->
+<!--
+    Romà Carbonell Benito
+    Narcís Carol
+    14/10/2024
+    ASIXc2b M04 UF1
+-->
+
+<receptes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="e2_receptes.xsd">
+    <recepta dificultat="5">
+        <autor>
+            <nom>John Doe</nom>
+            <dni>DES2322sS</dni>
+        </autor>
+        <nom>Papates amb llet</nom>
+        <ingredients>
+            <ingredient>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>grams</mesura>
+                </quantitat>
+                <nom>all</nom>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>Fregir patates</pas>
+            <pas>Posar-hi la llet</pas>
+            <pas>deixar refredar</pas>
+        </passos>
+    </recepta>
+</receptes>
