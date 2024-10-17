@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taules</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table {
+            width: auto; /* Ajustar la tabla al tamaño del contenido */
+            border-collapse: separate; /* Usar 'separate' para permitir márgenes entre celdas */
+            border-spacing: 2px; /* Espacio entre las celdas */
+            margin-bottom: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid black; /* Borde exterior */
+        }
+        th, td {
+            border: 1px solid black; /* Borde interior */
+            padding: 8px;
+            text-align: left;
+            background-color: white;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .wide-column {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th colspan="2">TELEPHONE</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+    <table> 
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>First</td>
+                        <td>Row</td>
+                    </tr>
+                    <tr>
+                        <td>Second</td>
+                        <td>Row</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>First</td>
+                        <td>Row</td>
+                    </tr>
+                    <tr>
+                        <td>Second</td>
+                        <td>Row</td>
+                    </tr>
+                </table>
+            </td>
+            <td class="wide-column"><img src="check.png" alt="Check" width="60" height="60"></td>
+            <td><img src="check.png" alt="Check" width="60" height="60"></td>
+        </tr>
+    </table>
+        </body>
+        </html>
+    </table>
+    <p>&lt;</p>
+</body>
+</html>
