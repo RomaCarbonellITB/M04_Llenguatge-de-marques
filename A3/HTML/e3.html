@@ -8,7 +8,7 @@
         body {
             background-color: green;
             color: black;
-            font-family: Arial, sans-serif;
+            font-family: 'Times New Roman', Times, serif;
         }
         .line-list {
             list-style-type: none;
@@ -108,6 +108,132 @@
         <li><a href="https://dev.mysql.com/doc/refman/8.4/en/timestamp-initialization.html">Creating a table with TIMESTAMP DEFAULT NOW()</a></li>
         <li><a href="https://www.ibm.com/docs/en/db2/11.1?topic=tables-viewing-table-definitions">Viewing a table definition</a></li>
     </ul>
-    <h2>Basic CREATE TABLE statement</h2>
+<h2>Basic CREATE TABLE statement</h2>
+<p>A very basic CREATE TABLE statement which should work in any SQL database:</p>
+<pre>
+<code>
+mysql> CREATE TABLE example (
+    id INT,
+    data VARCHAR(100)
+    );
+Query OK, 0 rows affected
+</code>
+</pre>
+<h2>Creating a table with a particular storage engine</h2>
+<p>MySQL provides a variety of different table types with differing levels of funcionality. The usual default, and most widely used, is <code>MyISAM</code>. Other storage types must be explicitly dfined:</p>
+<pre>
+<code>
+mysql> CREATE TABLE example_innodb (
+    id INT,
+    data VARCHAR(100)
+    ) TYPE = innodb;
+Query OK, 0 rows affected
+</code>
+</pre>
+<p>Note that beginning with MYSQL 4.1 <code>ENGINE=innodb</code> is the preferred method of defininf the storage type.</p>
+<p>Use <code>SHOW CREATE TABLE</code> (see <a href="#auto_increment">below</a>) to check that MySQL has created the table as you defined it.</p>
+<h2 id="auto_increment">Creating a table with auto_increment</h2>
+<p>Often you'll want to be able to automatically assign a sequential value to a column:</p>
+<pre>
+<code>
+mysql> CREATE TABLE example_autoincrement (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    data VARCHAR(100),
+    );
+Query OK, 0 rows affected
+mysql> INSERT INTO example_autoincrement (data) 
+    ->     VALUES ('Hello world');
+Query OK, 1 row affected
+mysql> SELECT * FROM example_autoincrement;
++----+-------------+
+| id | data        |
++----+-------------+
+|  1 | Hello world |
++----+-------------+
+1 row in set (0.01 sec)
+</code>
+</pre>
+<h2>Creating a table with the current timestamp</h2>
+<p>Often it's useful to have an automatic timestamp on each recprd. The MySQL special datatype TIMESTAMP enables you to keep track of changes to a record:</p>
+<pre>
+<code>
+mysql> CREATE TABLE example_timestamp (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    data VARCHAR(100),
+    cur_timestamp TIMESTAMP
+    );
+Query OK, 0 rows affected
+
+mysql> INSERT INTO example_timestamp (data) 
+            VALUES ('The time of creation is:');
+Query OK, 1 row affected
+
+mysql> SELECT * FROM example_timestamp;
++----+--------------------------+---------------------+
+| id | data                     | cur_timestamp       |
++----+--------------------------+---------------------+
+|  1 | The time of creation is: | 2004-12:0 20:37:22  |
++----+--------------------------+---------------------+
+1 row in set (0.00 sec)
+
+mysql> UPDATE example_timestamp
+        SET data = 'The time of update is:'
+        WHERE id = 1;
+Query OK, 1 row affected (0.03 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM example_timestamp;
++----+--------------------------+---------------------+
+| id | data                     | cur_timestamp       |
++----+--------------------------+---------------------+
+|  1 | The time of update is:   | 2004-12:0 20:37:22  |
++----+--------------------------+---------------------+
+1 row in set (0.01 sec)
+</code>
+</pre>
+<p>The column <code>cur_timestamp</code> is automagically updated every time the record is changed.</p>
+<h2>Creating a table with TIMESTAMP DEFAULT NOW()</h2>
+<p>MySQL supports the construct <code>TIMESTAMP DEFAULT NOW ()</code> only from version 4.1:</p>
+<pre>
+<code>
+CREATE TABLE example_default_now (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    data VARCHAR(100),
+    cur_timestamp TIMESTAMP DEFAULT NOW()
+    );
+</code>
+</pre>
+<p>In this case the cokumn <code>created</code> retains its initial value and is not changed during subsequents updates.</p>
+<p>For versions prior to 4.1, the only workamound is to create two timestamp columns in a table, explicitly set the second one when inserting the record. Remember: the first <code>TIMESTAMP</code> will be automagically updated on each record update</p>
+<h2>Viewing a table definition</h2>
+<p>For basic information on table columns, use <code>DESC tablename:</code></p>
+<pre>
+<code>
+mysql> DESC example;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | YES  |     | NULL    |       |
+| data  | varchar(100)| YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+</code>
+</pre>
+<p>Exact definition of the table:</p>
+<pre>
+<code>
+mysql> SHOW CREATE TABLE example;
++---------+---------------------------------------------+
+| Table   | Create Table                                |
++---------+---------------------------------------------+
+| example | CREATE TABLE `example` (
+    `id` int(11) default NULL,
+    `data` varchar(100) default NULL
+    ) ENGINE=MyISAM CHARSET=latin1 |
++---------+---------------------------------------------+
+1 row in set (0.00 sec)
+</code>
+</pre>
+<p>(this example from MySQL 4.1)</p>
 </body>
 </html>
