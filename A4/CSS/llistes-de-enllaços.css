@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, sans-serif; /* Tipus de lletra Verdana */
+    background-color: yellow; /* Fons groc */
+}
+h1 {
+    color: orange; /* Títol color taronja */
+    text-align: center; /* Centrar el text */
+}
+ul {
+    list-style-type: disc; /* Punt per a la llista */
+}
+ul ul {
+    list-style-type: circle; /* Punt buit per a la llista tabulada */
+}
+li {
+    font-size: 15px; /* Mida del text de la llista 15px */
+    color: black; /* Text de la llista en color negre */
+}
+a:link {
+    color: red; /* Enllaços no visitats en vermell */
+}
+a:visited {
+    color: purple; /* Enllaços visitats en porpra */
+}
+a:hover {
+    color: green; /* En passar el ratolí, els enllaços seran verds */
+    text-decoration: none; /* Sense subratllat quan es passa el ratolí */
+}
+a:active {
+    color: lime; /* Enllaç actiu de color llima */
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, sans-serif; /* Tipus de lletra Verdana */
+    font-size: 20px; /* Mida del text de 20px */
+    background-color: aqua; /* Fons aqua per tot el cos */
+}
+.silver {
+    background-color: silver; /* Fons plata */
+
+}
+.blue {
+    color: blue; /* Text en color blau */
+}
+.red {
+    color: red; /* Text en color vermell */
+}
+.center {
+    text-align: center; /* Text centrat */
+}
+.right {
+    text-align: right; /* Text alineat a la dreta */
+}
