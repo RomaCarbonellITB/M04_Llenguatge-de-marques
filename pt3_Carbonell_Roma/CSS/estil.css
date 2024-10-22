@@ -12,11 +12,16 @@ header {
     color: #7ABA96;
 }
 #sobre-mi {
-    background-color: white;
-    padding: 0.5%;
-    margin: 0.5%;
-    border-radius: 10px;
-    border-color: black;
-    border-style: solid;
     grid-area: main;
+    max-width: 35%;
+    text-align: center;
+}
+#sobre-mi .suscribete {
+    background-color:  rgb(197, 196, 196);
+
+}
+#sobre-mi .link, #sobre-mi a {
+    background-color: #7ABA96;
+    text-decoration: none;
+    color: black;
 }
