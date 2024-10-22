@@ -1,0 +1,22 @@
+header {
+    background-color: white;
+    text-align: center;
+}
+.inici a{
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inici a:hover{
+    color: #7ABA96;
+}
+#sobre-mi {
+    background-color: white;
+    padding: 0.5%;
+    margin: 0.5%;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    grid-area: main;
+}
