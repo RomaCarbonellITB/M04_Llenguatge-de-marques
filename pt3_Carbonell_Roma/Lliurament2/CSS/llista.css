@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box; /* Caja de borde */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente */
+}
+header {
+    background-color: white;
+    text-align: center;
+    top: 0;
+    position: sticky;
+}
+.inici a {
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inici a:hover {
+    color: #7ABA96;
+}
+/* Estilos de la lista de recetas */
+.llista {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.llista h1 {
+    font-size: 2em;
+    color: #8A8070;
+    margin-bottom: 10px;
+}
+
+.llista hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.llista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.llista li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.llista li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.llista li a:hover {
+    color: #4CAF50;
+}
+
+/* Estilos para imagen y detalles de cada receta */
+.imagen {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.llista p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.spaced {
+    margin-left: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho disponible */
+    bottom: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+footer a:hover {
+    color: #7ABA96;
+}
