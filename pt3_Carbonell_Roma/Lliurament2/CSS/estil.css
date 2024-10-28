@@ -15,7 +15,6 @@
 #recetas-izquierda article, #recetas-derecha article {
     max-width: 100%;
     text-align: center;
-
 }
 
 /* Estilos existentes */
@@ -58,6 +57,9 @@ header {
 
 article hr {
     border: 1px solid #7ABA96;
+}
+article br {
+    
 }
 article a {
     color: black;
