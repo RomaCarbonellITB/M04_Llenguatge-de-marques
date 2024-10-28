@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box; /* Caja de borde */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente */
+}
+header {
+    background-color: white;
+    text-align: center;
+}
+.inici a {
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inici a:hover {
+    color: #7ABA96;
+}
