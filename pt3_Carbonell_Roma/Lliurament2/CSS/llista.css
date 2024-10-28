@@ -81,6 +81,26 @@ header {
     color: #333;
     font-weight: bold;
 }
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #7ABA96;
+    color: white;
+}
 
 footer {
     background-color: black;
