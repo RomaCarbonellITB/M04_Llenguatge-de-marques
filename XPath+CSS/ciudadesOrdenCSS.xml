@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ciudadesOrdenCSS.xsl" ?>
+<ciudades>
+	<ciudad>
+		<nombre>Vic</nombre>
+		<provincia>Barcelona</provincia>
+		<habitantes>3</habitantes>
+	</ciudad>
+	<ciudad>
+		<nombre>Barcelona</nombre>
+		<provincia>Barcelona</provincia>
+		<habitantes>2500000</habitantes>
+	</ciudad>
+	<ciudad>
+		<nombre>Sabadell</nombre>
+		<provincia>Barcelona</provincia>
+		<habitantes>211734</habitantes>
+	</ciudad>
+</ciudades>
