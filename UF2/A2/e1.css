@@ -1,46 +1,22 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 10px;
-    background-color: #f5f5f5;
-}
-
-/* Contenedor principal */
 persona {
     border: 2px solid black;
     margin: 50px;
     padding: 20px;
     width: 300px;
-    text-align: left; /* Cambiado a left */
+    text-align: left;
 }
-
-/* Estilos para el nombre */
-persona > nombre {
-    font-size: 1.8em;
-    font-weight: bold;
-    margin-bottom: 10px;
+nombre {
+    font-size: 22px;
+}
+departamento {
+    font-size: 16px;
+    padding-top: 20px;
     display: block;
-}
-
-/* Estilos para el departamento */
-persona > departamento {
     font-weight: bold;
+}
+modulos {
+    font-size: 16px;
+    padding-top: 20px;
     font-style: italic;
-    margin-bottom: 10px;
-    display: block;
-}
-
-/* Estilos para los módulos */
-persona > modulos {
-    font-style: italic;
-}
-
-persona > modulos > modulo {
-    display: inline;
-}
-
-persona > modulos > modulo:not(:last-child)::after {
-    content: ", ";
+    padding-left: 5px;
 }

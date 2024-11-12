@@ -4,8 +4,8 @@
     <nombre>Meritxell Durany</nombre>
     <departamento>Dept. Informàtica</departamento>
     <modulos>
-        <modulo>M04</modulo>
-        <modulo>M2</modulo>
+        <modulo>M04,</modulo>
+        <modulo>M2,</modulo>
         <modulo>M8</modulo>
     </modulos>
 </persona>
