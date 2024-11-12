@@ -10,9 +10,10 @@ body {
 /* Contenedor principal */
 persona {
     border: 2px solid black;
+    margin: 50px;
     padding: 20px;
     width: 300px;
-    text-align: center;
+    text-align: left; /* Cambiado a left */
 }
 
 /* Estilos para el nombre */
