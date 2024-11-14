@@ -18,9 +18,9 @@
                     </thead>
                     <tbody>
                         <xsl:apply-templates select="//ciudad">
-                            <xsl:sort select="nombre" order="descending" />
-                            <xsl:sort select="provincia" order="ascending" />
-                            <xsl:sort select="habitantes" order="ascending" />
+                            <xsl:sort select="nombre" order="descending"/>
+                            <xsl:sort select="provincia"/>
+                            <xsl:sort select="habitantes" order="ascending"/>
                         </xsl:apply-templates>
                     </tbody>
                 </table>
