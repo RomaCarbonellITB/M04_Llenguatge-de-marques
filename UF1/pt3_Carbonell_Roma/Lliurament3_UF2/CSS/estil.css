@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box; /* Caja de borde */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente */
+}
+.container {
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre columnas */
+    margin-top: 2px; /* Márgenes alrededor del contenedor */
+    margin-left: 10%;
+    margin-right: 15%;
+    display: grid; /* Contenedor de tipo grid */
+}
+
+/* Estilos para los artículos de recetas */
+#recetas-izquierda article, #recetas-derecha article {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Estilos existentes */
+header {
+    background-color: white;
+    text-align: center;
+    top: 0;
+    position: sticky;
+}
+.inici a {
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inici a:hover {
+    color: #7ABA96;
+}
+#sobre-mi {
+    max-width: 100%; /* Ajusta el ancho al contenedor */
+    text-align: center;
+    margin-top: 2px; /* Márgenes alrededor del contenedor */
+    margin-left: 20%;
+    margin-right: 5%;
+}
+#sobre-mi .suscribete {
+    background-color: rgb(197, 196, 196);
+    margin: 0px;
+}
+#sobre-mi .link, #sobre-mi a {
+    background-color: #7ABA96;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
+#recetas {
+    max-width: 100%; /* Ajusta el ancho al contenedor */
+    text-align: center;
+}
+
+article hr {
+    border: 1px solid #7ABA96;
+}
+article a {
+    color: black;
+    text-decoration: none;
+}
+article a:hover {
+    color: #7ABA96;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho disponible */
+    bottom: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+footer a:hover {
+    color: #7ABA96;
+}
