@@ -151,4 +151,192 @@
             <pas>5. Guardar: La mermelada en contacto con las galletas puede hacer que, si pasan muchas horas hasta su consumo, estas se reblandezcan. Por ello, si las vas a preparar rellenas, es mejor hacerlo poco antes de consumirlas, o no rellenarlas de inmediato, guardarlas en un recipiente hermético cuando estén frías, y preparar el relleno un rato antes de servirlas.</pas>
         </passos>
     </recepta>
+    <recepta>
+        <autor>
+            <nom>Bernat Carol</nom>
+            <dni>75682345F</dni>
+        </autor>
+        <nom>Mjo cremoso con lentejas, hortalizas y shitake</nom>
+        <ingredients>
+            <ingredient>
+                <nom>aceite de oliva virgen extra</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharadas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>cebolla</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>pieza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>ajo</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>dientes</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>boniato</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>coliflor</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>agua</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>mililitros</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>mijo</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>taza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>lentejas rojas</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>taza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>shitake</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>leche de almendra</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>taza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>curry en polvo</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>cucharada</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>    
+        <passos>
+            <pas>1. Echar las 2 cucharadas de aceite de oliva virgen extra en una olla, calentar y añadir la cebolla bien picada.</pas>
+            <pas>2. Cuando esté translúcida, echar los ajos prensados, remover, esperar unos segundos y echar el boniato cortado en cubitos y la coliflor también cortada en trocitos. Remover bien.</pas>
+            <pas>3. Echar el agua ya caliente, la sal y también las lentejas y mijo lavados y escurridos. Remover bien. Dejar cocer a fuego bajo-medio hasta que todo esté prácticamente cocido.</pas>
+            <pas>4. Añadir las setas shiitake, limpias y laminadas, la leche de almendras y el curry, remover y acabar de cocer unos minutos más. Rectificar de sal y tapar para que acabe de hacerse con el calor. Si falta algo de cocción, añadir algo más de líquido y continuar a fuego bajo unos minutos más; también se puede añadir algo más de curry si se desea.</pas>
+            <pas>5. Añadir las guarniciones a la hora de servir y un poquito de aceite de oliva virgen extra por encima.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Isabel Gonzalez</nom>
+            <dni>25291326T</dni>
+        </autor>
+        <nom>Calabacines rellenos de arroz negro y calabaza</nom>
+        <ingredients>
+            <ingredient>
+                <nom>calabacines</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>piezas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>cebolla</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>pieza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>aceite de oliva</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharadas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>ajo</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>diente</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>canela en polvo</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>calabaza cocida</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>taza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>arroz negro</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>taza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>nata vegetal</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharadas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>queso mozzarella</nom>
+                <quantitat>
+                    <valor>25</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>    
+        <passos>
+            <pas>1. Hornear calabacines: En el horno precalentado a 180°C, pondremos a hornear los calabacines partidos por la mitad en una bandeja de horno con un poco de aceite en la base para que no se peguen, entre 150-180°C (dependiendo del horno), hasta que estén al dente y la pulpa tierna (más o menos 1 hora y 14, pero depende del horno).</pas>
+            <pas>2. Hornear la calabaza: Al mismo tiempo, yo aprovecho para hornear la calabaza a cortada a cuadritos, también hasta que esté tierna, removiéndola si es necesario para que no se queme (pueden tardar tiempos diferentes) o también la puedes hacer al vapor.</pas>
+            <pas>3. Cocer el arroz: Mientras cocer el arroz en 1 medida de arroz por 2 y 1/4 medidas de agua, después de lavarlo bien, hasta que se consuma todo el líquido.</pas>
+            <pas>4. Quitar la pulpa: Cuando estén los calabacines, quitar la pulpa con una cuchara y reservarla.</pas>
+            <pas>5. Sofreír: En una sartén, sofreír en un poco de aceite la cebolla picada, cuando esté transparente añadir el ajo triturado, la calabaza, la pulpa deshecha de los calabacines, la canela, la sal al gusto y la nata. Remover bien para que se integre todo.</pas>
+            <pas>6. Rellenar: Rellenar los calabacines con esta mezcla, dejando espacio para añadir encima un poco de arroz cocido, un poco de mozzarella y parmesano (o cualquier queso vegano que funda y gratine)</pas>
+            <pas>7. Gratinar y servir: Gratinar y servir con cilantro fresco o cualquier otra aromática fresca si se desea.</pas>
+        </passos>
+    </recepta>
 </receptes>
