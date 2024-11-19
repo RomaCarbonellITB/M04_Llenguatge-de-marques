@@ -7,6 +7,7 @@
             <dni>23458758A</dni>
         </autor>
         <nom>Pasta con Salsa de Coliflor y Pimienta de Jamaica</nom>
+        <imatge>../imatges/pasta.jpg</imatge>
         <ingredients>
             <ingredient>
                 <nom>aceite de oliva virgen extra</nom>
@@ -78,6 +79,7 @@
             <dni>36457814U</dni>
         </autor>
         <nom>Galletas de avena, rosa y lima</nom>
+        <imatge>../imatges/galletas.jpg</imatge>
         <ingredients>
             <ingredient>
                 <nom>harina de avena</nom>
@@ -157,6 +159,7 @@
             <dni>75682345F</dni>
         </autor>
         <nom>Mjo cremoso con lentejas, hortalizas y shitake</nom>
+        <imatge>../imatges/mijo.jpg</imatge>
         <ingredients>
             <ingredient>
                 <nom>aceite de oliva virgen extra</nom>
@@ -257,6 +260,7 @@
             <dni>25291326T</dni>
         </autor>
         <nom>Calabacines rellenos de arroz negro y calabaza</nom>
+        <imatge>../imatges/calabacines.jpg</imatge>
         <ingredients>
             <ingredient>
                 <nom>calabacines</nom>
@@ -339,4 +343,557 @@
             <pas>7. Gratinar y servir: Gratinar y servir con cilantro fresco o cualquier otra aromática fresca si se desea.</pas>
         </passos>
     </recepta>
+    <recepta>
+        <autor>
+            <nom>Juan Pablo Ortiz</nom>
+            <dni>68952410V</dni>
+        </autor>
+        <nom>Sopa Thai</nom>
+        <imatge>../imatges/sopa.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>cebolla</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>pieza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>ajos</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>piezas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>aceite de oliva</nom>
+                <quantitat>
+                    <valor>3</valor>
+                    <mesura>cucharadas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>pimiento rojo</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>pieza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>jengibre rallado</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharada</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>pasta de curry rojo</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>leche de coco</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>lata</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>caldo vegetal</nom>
+                <quantitat>
+                    <valor>4</valor>
+                    <mesura>tazas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>lima kaffir</nom>
+                <quantitat>
+                    <valor>3</valor>
+                    <mesura>hojas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>
+                    <valor>10</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>fideos de mijo</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>lima</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>pieza</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>cilantro</nom>
+                <quantitat>
+                    <valor>8</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>    
+        <passos>
+            <pas>1. Sofreír la cebolla y el pimiento: en primer lugar sofreiremos la cebolla picadita en el aceite hasta que esté transparente (yo utilizo mi olla de hierro fundido), le añadiremos el pimiento bien picado, y cuando esté un poco tierno, añadiremos los ajos prensados y el jengibre rallado (o su jugo), mezclándolo todo muy bien. Seguidamente añadiremos las hojas de lima.</pas>
+            <pas>2. Incorporar la leche de coco: a fuego bajo incorporaremos la leche de coco, e iremos mezclándolo todo muy bien para que se deshaga completamente y no quede ningún grumo.</pas>
+            <pas>3. Añadir el caldo y mezclar con la pasta de curry: añadiremos el caldo,
+                mezclaremos bien y añadiremos la pasta de curry (previamente desleída en un poquito del caldo).</pas>
+            <pas>4. Incorporar la sal y los fideos: incorporaremos la sal, los fideos ya cocidos y el tofu salteado, en daditos, que podemos ir dorando mientras vamos haciendo el sofrito. </pas>
+            <pas>5. Añadir el zumo de lima, el cilantro y remover: para terminar, echaremos el zumo de lima, el cilantro bien picado y removeremos bien.</pas>
+            <pas>6. Decorar y servir: decoraremos con más hojas de cilantro enteras o picadas.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Sandra Muñoz</nom>
+            <dni>26257824J</dni>
+        </autor>
+        <nom>Bizcocho de calabaza y chocolate</nom>
+        <imatge>../imatges/bizcocho.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>huevos</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>piezas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>pure de calabaza</nom>
+                <quantitat>
+                    <valor>250</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>mantequilla de almendras</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>esencia de vainilla</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharada</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>azúcar de caña</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>harina de espelta integral</nom>
+                <quantitat>
+                    <valor>110</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>caco en polvo</nom>
+                <quantitat>
+                    <valor>20</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>algarroba en polvo</nom>
+                <quantitat>
+                    <valor>20</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>levadura de repostería</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharaditas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>canela</nom>
+                <quantitat>
+                    <valor>1/2</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>
+                    <valor>5</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>    
+        <passos>
+            <pas>1. Ingredientes secos: primero, en el bol de los ingredientes secos, echaremos la harina, la levadura, la canela, el cacao, la algarroba y la pizca de sal. Mezclaremos bien y reservaremos.</pas>
+            <pas>2. Ingredientes húmedos: después, en el bol de los ingredientes húmedos,
+                echaremos los huevos y los batiremos. Añadiremos luego el azúcar y volveremos a batir.</pas>
+            <pas>3.  Añadir calabaza y mantequilla: Incorporaremos el puré de calabaza, la
+                mantequilla de almendras, y la vainilla, y volveremos a mezclar muy bien hasta dejar una mezcla homogénea.</pas>
+            <pas>4. Mezclar bols: añadiremos ahora la mezcla de los ingredientes secos a este bol, y volveremos a mezclar bien todo hasta que los ingredientes queden totalmente integrados.</pas>
+            <pas>5. Preparar el molde: a continuación, forraremos o engrasaremos con un poco de aceite de oliva un molde cuadrado o rectangular (yo he utilizado uno de 18cm x 18cm).</pas>
+            <pas>6. Hornear: precalentaremos el horno a 180°C, y hornearemos a esa temperatura unos 25-30 minutos, o hasta que al introducir una varilla salga limpia.</pas>
+            <pas>7. Dejar enfriar: dejaremos enfriar el bizcocho completamente antes de echarle la cobertura de chocolate.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Oriol Boix</nom>
+            <dni>45235610M</dni>
+        </autor>
+        <nom>Ensalada de pepino japonesa</nom>
+        <imatge>../imatges/ensalada.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>pepinos</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>piezas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>alga wakame</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharaditas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>cebolla roja</nom>
+                <quantitat>
+                    <valor>25</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>semilla de sésamo</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharada</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>sal</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharadita</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>vinagre de arroz</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharaditas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>aceite de sésamo</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharada</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>sirope de ágave</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharaditas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>salsa de soja</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>cucharada</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>mirin</nom>
+                <quantitat>
+                    <valor>2</valor>
+                    <mesura>cucharaditas</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>jengibre rallado</nom>
+                <quantitat>
+                    <valor>10</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>    
+        <passos>
+            <pas>1. Preparar la wakame: En un bol pequeñito con un poquito de agua pondremos el alga wakame en remojo unos minutos. Verás que aumenta considerablemente de tamaño.</pas>
+            <pas>2. Juntar los ingredientes: Lavaremos muy bien el pepino, lo laminaremos con el Spirali, o con un pelador de verduras. Luego echaremos el alga wakame escurrida por encima, la cebolla y reservaremos.</pas>
+            <pas>3. Rallar el jengibre: Ahora rallaremos y exprimiremos el jengibre para extraer su jugo, y lo mezclaremos con el resto de ingredientes del aliño.</pas>
+            <pas>4. Añadir el aliño: Echaremos el aderezo por encima del pepino laminado, el alga y la cebolla.</pas>
+            <pas>5. Decorar y emplatar: Decoraremos con sésamo negro y puedes añadir sal y/o añadir un poco más del ingrediente que prefieras.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Pol Cabacés</nom>
+            <dni>56782315W</dni>
+        </autor>
+        <nom>Leche de nueces</nom>
+        <imatge>../imatges/leche.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>nueces</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>agua</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>litro</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>    
+        <passos>
+            <pas>1. Remojo: pondremos las nueces en remojo durante unas 8 horas para que queden bien limpias y pierdan su característico amargor.</pas>
+            <pas>2. Escurrir y meter en la batidora: las escurriremos y lavaremos bien, y las pondremos en la batidora junto con unos 250ml de agua. (También puedes hacerlo con tu batidora de mano o minipimer en la Vegan Milker puedes verlo en el vídeo de la receta de horchata de chufa)</pas>
+            <pas>3. Batir: batiremos muy bien hasta que todo esté bien triturado. De vez en cuando iremos añadiendo el resto del agua mientras acabamos de triturar.</pas>
+            <pas>4. Colamos: cogeremos un colador fino, una tela o la bolsa especial para hacer leches vegetales que te comento arriba en el texto y filtraremos la mezcla, estrujando bien para que no quede nada de líquido en la pulpa.</pas>
+            <pas>5. Guardamos en la nevera: guardaremos en una botella de cristal bien cerrada, donde nos durará de 2 a 3 días máximo.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Maria González</nom>
+            <dni>12345678Z</dni>
+        </autor>
+        <nom>Sopa de miso</nom>
+        <imatge>../imatges/sopa-de-miso.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>miso</nom>
+                <quantitat>
+                    <valor>50</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>agua</nom>
+                <quantitat>
+                    <valor>1.5</valor>
+                    <mesura>litro</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Hervir agua: calentamos agua en una olla grande.</pas>
+            <pas>2. Disolver miso: añadimos el miso y removemos bien hasta que se disuelva.</pas>
+            <pas>3. Cocinar: dejamos hervir durante 5 minutos a fuego lento.</pas>
+            <pas>4. Servir: servimos caliente con cebollín picado y tofu.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Lucía Fernández</nom>
+            <dni>34567891W</dni>
+        </autor>
+        <nom>Ensalada mediterránea</nom>
+        <imatge>../imatges/ensalada-mediterranea.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>tomates</nom>
+                <quantitat>
+                    <valor>4</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>pepino</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Lavar verduras: lavamos los tomates y el pepino.</pas>
+            <pas>2. Cortar ingredientes: cortamos los tomates y el pepino en rodajas.</pas>
+            <pas>3. Aliñar: aliñamos con aceite de oliva, sal y vinagre.</pas>
+            <pas>4. Servir: servimos fresco y decorado con hierbas.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Javier Martínez</nom>
+            <dni>11223344Y</dni>
+        </autor>
+        <nom>Pizza margarita</nom>
+        <imatge>../imatges/pizza.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>harina</nom>
+                <quantitat>
+                    <valor>300</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>tomate triturado</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Preparar masa: mezclar harina, agua y levadura para hacer la masa.</pas>
+            <pas>2. Formar pizza: extender la masa en una bandeja de horno.</pas>
+            <pas>3. Añadir ingredientes: esparcir el tomate y añadir mozzarella por encima.</pas>
+            <pas>4. Hornear: hornear a 220°C durante 15 minutos.</pas>
+            <pas>5. Servir: sacar del horno y cortar en porciones.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Eva Sánchez</nom>
+            <dni>55667788T</dni>
+        </autor>
+        <nom>Arroz con verduras</nom>
+        <imatge>../imatges/arroz.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>arroz</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>guisantes</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Cocinar arroz: hervimos el arroz hasta que esté tierno.</pas>
+            <pas>2. Sofreír verduras: en una sartén, freímos los guisantes y otras verduras.</pas>
+            <pas>3. Mezclar: incorporamos el arroz con las verduras.</pas>
+            <pas>4. Servir: servimos caliente.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Antonio Pérez</nom>
+            <dni>77665544Z</dni>
+        </autor>
+        <nom>Gazpacho</nom>
+        <imatge>../imatges/gazpacho.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>tomates</nom>
+                <quantitat>
+                    <valor>5</valor>
+                    <mesura>unidades</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>pepino</nom>
+                <quantitat>
+                    <valor>1</valor>
+                    <mesura>unidad</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Lavar ingredientes: lavamos tomates, pepino y pimientos.</pas>
+            <pas>2. Triturar: trituramos todos los ingredientes con una batidora.</pas>
+            <pas>3. Enfriar: dejamos enfriar en la nevera durante una hora.</pas>
+            <pas>4. Servir: servimos frío con un chorrito de aceite de oliva.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>Isabel Gómez</nom>
+            <dni>99887766P</dni>
+        </autor>
+        <nom>Pan de avena</nom>
+        <imatge>../imatges/pan.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>avena</nom>
+                <quantitat>
+                    <valor>250</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>levadura</nom>
+                <quantitat>
+                    <valor>10</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Mezclar ingredientes: mezclar avena, levadura y agua tibia.</pas>
+            <pas>2. Amasar: amasar durante unos 10 minutos hasta conseguir una masa homogénea.</pas>
+            <pas>3. Dejar reposar: dejar reposar la masa durante una hora.</pas>
+            <pas>4. Hornear: hornear a 180°C durante 30 minutos.</pas>
+            <pas>5. Enfriar: dejar enfriar antes de cortar.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <autor>
+            <nom>José Hernández</nom>
+            <dni>44556677Q</dni>
+        </autor>
+        <nom>Crema de calabaza</nom>
+        <imatge>../imatges/calabaza.jpg</imatge>
+        <ingredients>
+            <ingredient>
+                <nom>calabaza</nom>
+                <quantitat>
+                    <valor>500</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>patata</nom>
+                <quantitat>
+                    <valor>200</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+            <ingredient>
+                <nom>zanahoria</nom>
+                <quantitat>
+                    <valor>100</valor>
+                    <mesura>gramos</mesura>
+                </quantitat>
+            </ingredient>
+        </ingredients>
+        <passos>
+            <pas>1. Pelar y cortar: pelamos y cortamos la calabaza, patata y zanahoria en trozos pequeños.</pas>
+            <pas>2. Cocinar: hervimos las verduras en una olla con agua durante unos 20 minutos hasta que estén tiernas.</pas>
+            <pas>3. Triturar: pasamos las verduras cocidas por la batidora hasta obtener una crema suave.</pas>
+            <pas>4. Aliñar: añadimos sal, pimienta y un chorrito de aceite de oliva al gusto.</pas>
+            <pas>5. Servir: servimos caliente y decoramos con un poco de crema de leche o semillas.</pas>
+        </passos>
+    </recepta>    
 </receptes>

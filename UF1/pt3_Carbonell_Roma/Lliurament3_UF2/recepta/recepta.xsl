@@ -27,6 +27,14 @@
                             </header>
                             <div>
                                 <h1><xsl:value-of select="nom"/></h1>
+                                <img>
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of select="imatge"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="nom"/>
+                                    </xsl:attribute>
+                                </img>
                                 <p><b>Autor:</b> <xsl:value-of select="autor/nom"/></p>
                                 <p><b>DNI:</b> <xsl:value-of select="autor/dni"/></p>
                             </div>
