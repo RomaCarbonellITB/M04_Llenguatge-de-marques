@@ -97,6 +97,11 @@ header {
     transition: background-color 0.3s;
 }
 
+.pagination a.active {
+    background-color: #7ABA96;
+    color: white;
+}
+
 .pagination a:hover {
     background-color: #7ABA96;
     color: white;
