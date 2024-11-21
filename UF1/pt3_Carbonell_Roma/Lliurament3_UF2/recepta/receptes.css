@@ -28,6 +28,11 @@ h1 {
     color: #333;
 }
 
+div img {
+    width: 600px;
+    height: auto;
+}
+
 section {
     margin: 20px 0;
 }
