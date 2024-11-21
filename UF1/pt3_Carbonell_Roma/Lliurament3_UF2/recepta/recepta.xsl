@@ -19,7 +19,7 @@
                                 <nav class="inici">
                                     <a href="../index.html">INICIO</a>
                                     <a href="../index.html#sobre-mi">SOBRE MÍ</a>
-                                    <a href="receptas.html">RECETAS</a>
+                                    <a href="receptas1-5.html">RECETAS</a>
                                     <a href="../Formulari/contacto.html">CONTACTO</a>
                                     <a href="otras.html">OTRAS COSAS</a>
                                 </nav>
