@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Endevina el número</title>
+    <script>
+        let numSecret = Math.floor(Math.random() * 100) + 1;
+
+        function comprovaNumero() {
+            const entrada = parseInt(document.getElementById("inputNumero").value);
+
+            if (isNaN(entrada) || entrada < 1 || entrada > 100) {
+                alert("Introdueix un número vàlid entre 1 i 100.");
+                return;
+            }
+
+            if (entrada < numSecret) {
+                alert("El número que has introduït és més petit que el número secret, torna a provar.");
+            } else if (entrada > numSecret) {
+                alert("El número que has introduït és més gran que el número secret, torna a provar.");
+            } else {
+                alert("Felicitats! Has encertat el número secret!");
+                resetJoc();
+            }
+        }
+
+        function cancelJoc() {
+            alert("Has cancel·lat el joc.");
+            resetJoc();
+        }
+
+        function resetJoc() {
+            numSecret = Math.floor(Math.random() * 100) + 1;
+            document.getElementById("inputNumero").value = "";
+        }
+    </script>
+</head>
+<body>
+    <h1>UF3: JavaScript | Exercici 2</h1>
+    <form onsubmit="event.preventDefault(); comprovaNumero();">
+        <label for="inputNumero">Introdueix un número entre 1 i 100:</label>
+        <input type="number" id="inputNumero" min="1" max="100" />
+        <button type="submit">Comprovar</button>
+        <button type="button" onclick="cancelJoc()">Cancel·lar</button>
+    </form>
+</body>
+</html>
