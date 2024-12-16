@@ -80,7 +80,7 @@ function drawWheel() {
 }
 function spinWheel() {
     spinSound.play();
-    const spinTime = 4000; // Tiempo total de giro en milisegundos
+    const spinTime = 12000; // Tiempo total de giro en milisegundos
     const totalRotation = Math.random() * 2 * Math.PI + 10 * Math.PI; // 10 vueltas + aleatorio
     const startTime = performance.now();
 

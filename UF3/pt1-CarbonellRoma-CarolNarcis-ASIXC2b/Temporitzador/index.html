@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporitzador de Tasca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Temporitzador de Tasca</h1>
+
+    <div id="clock">
+        <h2>Hora actual: <span id="current-time">00:00:00</span></h2>
+    </div>
+
+    <div id="time-settings">
+        <h3>Estableix el temps de finalització</h3>
+        
+        <label for="end-time">Hora exacta de finalització:</label>
+        <input type="time" id="end-time">
+        
+        <br><br>
+        
+        <label for="countdown-time">Temps restant per acabar (HH:MM:SS):</label>
+        <input type="text" id="countdown-time" placeholder="01:16:00">
+        
+        <button id="start-button">Iniciar Temporitzador</button>
+    </div>
+
+    <h3>Temps restant:</h3>
+    <p id="remaining-time">00:00:00</p>
+
+    <div id="sound-options">
+        <h3>Selecciona el so d'alarma:</h3>
+        <select id="sound-select">
+            <option value="sound1.mp3">So 1</option>
+            <option value="sound2.mp3">So 2</option>
+            <option value="sound3.mp3">So 3</option>
+        </select>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

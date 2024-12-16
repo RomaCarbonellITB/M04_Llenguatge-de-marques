@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#clock {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input, button, select {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#remaining-time {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+#sound-options {
+    margin-top: 20px;
+}
