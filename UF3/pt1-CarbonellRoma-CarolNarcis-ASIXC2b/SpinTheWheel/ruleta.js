@@ -1,5 +1,6 @@
 let names = []; // Lista de nombres cargados
 let rotationAngle = 0; // Ángulo actual de la ruleta
+let spinSound = new Audio('spin-sound.mp3'); // Sonido para cuando gira la ruleta
 
 document.getElementById('nom').addEventListener('click', () => {
     // Cargar los nombres desde nombres.txt
@@ -77,8 +78,8 @@ function drawWheel() {
     ctx.fillStyle = 'black';  // Color del marcador
     ctx.fill();
 }
-
 function spinWheel() {
+    spinSound.play();
     const spinTime = 4000; // Tiempo total de giro en milisegundos
     const totalRotation = Math.random() * 2 * Math.PI + 10 * Math.PI; // 10 vueltas + aleatorio
     const startTime = performance.now();
