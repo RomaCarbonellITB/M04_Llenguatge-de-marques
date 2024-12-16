@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,8 +21,8 @@
         
         <br><br>
         
-        <label for="countdown-time">Temps restant per acabar (HH:MM:SS):</label>
-        <input type="text" id="countdown-time" placeholder="01:16:00">
+        <label for="countdown-time">Duració de l'alarma (HH:MM:SS):</label>
+        <input type="text" id="countdown-time" placeholder="00:01:00">
         
         <button id="start-button">Iniciar Temporitzador</button>
     </div>
@@ -38,6 +38,8 @@
             <option value="sound3.mp3">So 3</option>
         </select>
     </div>
+
+    <button id="stop-alarm-button">Parar Alarma</button>
 
     <script src="app.js"></script>
 </body>

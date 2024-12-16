@@ -1,90 +1,88 @@
-let countdownInterval;
-let currentTimeDisplay = document.getElementById('current-time');
-let remainingTimeDisplay = document.getElementById('remaining-time');
-let startButton = document.getElementById('start-button');
-let endTimeInput = document.getElementById('end-time');
-let countdownTimeInput = document.getElementById('countdown-time');
-let soundSelect = document.getElementById('sound-select');
+document.addEventListener('DOMContentLoaded', () => {
+    const currentTimeElement = document.getElementById('current-time');
+    const endTimeInput = document.getElementById('end-time');
+    const countdownTimeInput = document.getElementById('countdown-time');
+    const remainingTimeElement = document.getElementById('remaining-time');
+    const startButton = document.getElementById('start-button');
+    const soundSelect = document.getElementById('sound-select');
+    const stopAlarmButton = document.getElementById('stop-alarm-button');
 
-// Inicializamos los sonidos
-let sound1 = new Audio('sound1.mp3');
-let sound2 = new Audio('sound2.mp3');
-let sound3 = new Audio('sound3.mp3');
+    let timerInterval;
+    let endTime;
+    let alarmAudio;
+    let alarmTimeout;
 
-let alarmSound = null;  // Inicializamos la variable del sonido de alarma
-let currentTime = new Date();
-let targetTime = null;
-
-function updateClock() {
-    let now = new Date();
-    let hours = now.getHours().toString().padStart(2, '0');
-    let minutes = now.getMinutes().toString().padStart(2, '0');
-    let seconds = now.getSeconds().toString().padStart(2, '0');
-    currentTimeDisplay.textContent = `${hours}:${minutes}:${seconds}`;
-}
-
-function startCountdown(targetDate) {
-    if (countdownInterval) {
-        clearInterval(countdownInterval);
+    // Function to update the current time
+    function updateCurrentTime() {
+        const now = new Date();
+        currentTimeElement.textContent = now.toLocaleTimeString();
     }
 
-    countdownInterval = setInterval(() => {
-        let now = new Date();
-        let remainingTime = targetDate - now;
+    // Function to calculate and display the remaining time
+    function updateRemainingTime() {
+        const now = new Date();
+        const remainingTime = endTime - now;
 
         if (remainingTime <= 0) {
-            clearInterval(countdownInterval);
-            remainingTimeDisplay.textContent = "00:00:00";
+            clearInterval(timerInterval);
+            remainingTimeElement.textContent = '00:00:00';
             playAlarm();
-            alert("La tasca ha finalitzat!");
         } else {
-            let hours = Math.floor(remainingTime / (1000 * 60 * 60)).toString().padStart(2, '0');
-            let minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
-            let seconds = Math.floor((remainingTime % (1000 * 60)) / 1000).toString().padStart(2, '0');
-            remainingTimeDisplay.textContent = `${hours}:${minutes}:${seconds}`;
+            const hours = Math.floor(remainingTime / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+            remainingTimeElement.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
         }
-    }, 1000);
-}
-
-function playAlarm() {
-    // Reproducir el sonido seleccionado
-    alarmSound.play();
-}
-
-// Configurar el sonido de alarma según la opción seleccionada
-soundSelect.addEventListener('change', () => {
-    let selectedSound = soundSelect.value;
-    switch (selectedSound) {
-        case 'sound1.mp3':
-            alarmSound = sound1;
-            break;
-        case 'sound2.mp3':
-            alarmSound = sound2;
-            break;
-        case 'sound3.mp3':
-            alarmSound = sound3;
-            break;
-        default:
-            alarmSound = sound1; // Default sound
     }
-});
 
-startButton.addEventListener('click', () => {
-    let endTime = endTimeInput.value;
-    let countdownTime = countdownTimeInput.value;
+    // Function to play the selected alarm sound
+    function playAlarm() {
+        const selectedSound = soundSelect.value;
+        alarmAudio = new Audio(selectedSound);
+        alarmAudio.loop = true;
+        alarmAudio.play();
 
-    if (endTime) {
-        let [hours, minutes] = endTime.split(':').map(Number);
-        let now = new Date();
-        targetTime = new Date(now.setHours(hours, minutes, 0, 0));
-        startCountdown(targetTime);
-    } else if (countdownTime) {
-        let [hours, minutes, seconds] = countdownTime.split(':').map(Number);
-        let now = new Date();
-        targetTime = new Date(now.getTime() + (hours * 60 * 60 * 1000) + (minutes * 60 * 1000) + (seconds * 1000));
-        startCountdown(targetTime);
+        const [hours, minutes, seconds] = countdownTimeInput.value.split(':').map(Number);
+        const alarmDuration = (hours * 3600 + minutes * 60 + seconds) * 1000;
+
+        alarmTimeout = setTimeout(stopAlarm, alarmDuration);
     }
-});
 
-// Actualización de la hora actual
-setInterval(updateClock, 1000);
+    // Function to stop the alarm sound
+    function stopAlarm() {
+        if (alarmAudio) {
+            alarmAudio.pause();
+            alarmAudio.currentTime = 0;
+        }
+        clearTimeout(alarmTimeout);
+    }
+
+    // Function to start the timer
+    function startTimer() {
+        clearInterval(timerInterval);
+
+        const endTimeValue = endTimeInput.value;
+
+        if (endTimeValue) {
+            const [hours, minutes] = endTimeValue.split(':');
+            endTime = new Date();
+            endTime.setHours(hours);
+            endTime.setMinutes(minutes);
+            endTime.setSeconds(0);
+        } else {
+            alert('Please set an end time.');
+            return;
+        }
+
+        timerInterval = setInterval(updateRemainingTime, 1000);
+        updateRemainingTime();
+    }
+
+    // Update the current time every second
+    setInterval(updateCurrentTime, 1000);
+    updateCurrentTime();
+
+    // Add event listeners
+    startButton.addEventListener('click', startTimer);
+    stopAlarmButton.addEventListener('click', stopAlarm);
+});
